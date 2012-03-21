@@ -1,0 +1,23 @@
+Para compilar um arquivo .hugo:
+
+~$ cd Pasta
+~$ python compiler.py arquivo.hugo
+
+Então será criado um arquivo .html a partir de arquivo fonte. O compilador por enquanto aceita a inserção de ids e classes aos elementos html no seguinte formato:
+
+	* Id
+		- elemento #id
+		
+	* Classe
+		- element .classe1.classe2.classe3 (podem existir n classes)
+
+Exemplo de código
+
+	html {
+		head {
+			title {"Título aqui"}
+		}
+		body {
+			h1 #id_do_titulo .algumas_classes.mais_uma.e_outra {"Pode ser adicionado qualquer elemento"}
+		}
+	}
