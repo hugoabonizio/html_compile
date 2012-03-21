@@ -1,0 +1,11 @@
+html {
+	head {
+		title {"Testando compilador de HTML"}
+		style {"@import 'static/style.css';"}
+	}
+	
+	body {
+		h1 #title {"Titulo em H1!!"}
+		p .desc {"Prometo que irei descrever ele aqui posteriormente e criar um noime bacana, mas por enquanto, isso basta..."}
+	}
+}
