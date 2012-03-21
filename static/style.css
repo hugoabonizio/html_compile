@@ -1,0 +1,10 @@
+body {
+	background: gray;
+}
+#title {
+	font-family: Verdana;
+	color: green;
+}
+.desc {
+	color: blue;
+}
